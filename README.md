@@ -2,7 +2,7 @@
 
 # The Document Object Model (DOM) & DOM Manipulation Exercise
 
-## Instructions
+## Getting STarted
 
 1. Make sure you have forked this github Repo to your GitHub account.
 
@@ -30,3 +30,25 @@
     This will open a new browser tab with the `index.html` file loaded.
 
     Or you in the bottom bar of your local or in-browser editor, you can click the Port 3000 button and choose the Live Preview: Open in External Browser option.
+
+## Activities
+
+0. Where should we include styles.css & script.js?
+
+1. View the HTML site in the Chrome DevTools and better understand how the DOM is like a Tree
+
+2. Change the URL for an HTML image using the Chrome DevTools Elements Window
+
+3. Select an HTML element using getElementById()
+
+4. Select an HTML element using querySelector()
+
+5. Store an HTML element in a variable
+
+6. Change the text of an HTML element using innerText
+
+7. Change the style of an HTML element using style
+
+8. Remove an HTML element using remove()
+
+9. Add an HTML element using appendChild()
