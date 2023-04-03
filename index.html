@@ -7,14 +7,85 @@
     <title>The Document Object Model (DOM) & DOM Manipulation</title>
   </head>
   <body>
+    <!-- start header -->
     <header>
-      This is the header
+      <!-- start nav -->
+      <nav>
+        <ul>
+          <li><a href="#page-heading">Home</a></li>
+          <li><a href="#dogs">Dogs</a></li>
+          <li><a href="#cats">Cats</a></li>
+        </ul>
+      </nav>
+      <!-- end nav -->
+
+      <!-- start page heading -->
+      <h1 id="page-heading">
+        The Document Object Model (DOM)& DOM Manipulation
+      </h1>
     </header>
+    <!-- end header -->
+
+    <!-- start main -->
     <main>
-      This is the main content
+      <!-- some simple html elements that will look good on mobile-->
+      <section id="images">
+        <h2>Images of Reunited Pets from Pawboost</h2>
+        <section id="dogs">
+          <h3>Dogs</h3>
+          <div id="syvlia">
+            <span>Sylvia</span>
+            <img
+              src="https://img-cdn.pawboost.com/1668751201/20221125-Sylvie-296917881268499294-500x500.jpeg"
+              alt="Sylvia"
+            />
+          </div>
+          <div id="lexi">
+            <span>Lexi</span>
+            <img
+              src="https://img-cdn.pawboost.com/1678732309/20230331-Lexi-296917881268846832-500x500.jpeg"
+              alt="Lexi"
+            />
+          </div>
+          <div id="peanut">
+            <span>Peanut</span>
+            <img
+              src="https://img-cdn.pawboost.com/1678468702/20230324-Found-Dog-Peanut-296917881268833294-500x500.jpeg"
+              alt="Peanut"
+            />
+          </div>
+        </section>
+        <section id="cats">
+          <h3>Cats</h3>
+          <div id="smudgie">
+            <span>Smudgie</span>
+            <img
+              src="https://img-cdn.pawboost.com/1678395485/20230320-Smudgie-296917881268808697-500x500.jpeg"
+              alt="Smudgie"
+            />
+          </div>
+          
+          <div id="thelmer">
+            <span>Thelmer</span>
+            <img
+              src="https://img-cdn.pawboost.com/1677257185/20230311-Thelmer-296917881268636673-500x500.jpeg"
+              alt="Thelmer"
+            />
+          </div>
+          
+          <div id="garfield">
+            <span>Garfield</span>
+            <img
+              src="https://img-cdn.pawboost.com/1677255684/20230309-Garfield-296917881268781856-500x500.jpeg"
+              alt="Garfield"
+            />
+        </section>
+      </section>
     </main>
-    <footer>
-      This is the footer
-    </footer>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer>Help reunite more pets with <a href="https://pawboost.com">Pawboost</a></footer>
+    <!-- end footer -->
   </body>
 </html>
